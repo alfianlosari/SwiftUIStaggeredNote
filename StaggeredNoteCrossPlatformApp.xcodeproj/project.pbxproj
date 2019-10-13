@@ -3,34 +3,158 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BFAC55A2353907000CA7F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5592353907000CA7F37 /* AppDelegate.swift */; };
-		8BFAC55C2353907000CA7F37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC55B2353907000CA7F37 /* SceneDelegate.swift */; };
-		8BFAC55E2353907000CA7F37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC55D2353907000CA7F37 /* ContentView.swift */; };
-		8BFAC5602353907100CA7F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC55F2353907100CA7F37 /* Assets.xcassets */; };
-		8BFAC5632353907100CA7F37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC5622353907100CA7F37 /* Preview Assets.xcassets */; };
-		8BFAC5662353907100CA7F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC5642353907100CA7F37 /* LaunchScreen.storyboard */; };
+		8BFAC5742353913300CA7F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5732353913300CA7F37 /* AppDelegate.swift */; };
+		8BFAC5762353913300CA7F37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5752353913300CA7F37 /* SceneDelegate.swift */; };
+		8BFAC57A2353913400CA7F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC5792353913400CA7F37 /* Assets.xcassets */; };
+		8BFAC57D2353913400CA7F37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC57C2353913400CA7F37 /* Preview Assets.xcassets */; };
+		8BFAC5802353913400CA7F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC57E2353913400CA7F37 /* LaunchScreen.storyboard */; };
+		8BFAC587235391CE00CA7F37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC586235391CE00CA7F37 /* ContentView.swift */; };
+		8BFAC58A2353921800CA7F37 /* StaggeredList in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFAC5892353921800CA7F37 /* StaggeredList */; };
+		8BFAC58C2353923600CA7F37 /* NoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC58B2353923600CA7F37 /* NoteImage.swift */; };
+		8BFAC594235392CD00CA7F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC593235392CD00CA7F37 /* AppDelegate.swift */; };
+		8BFAC59B235392CE00CA7F37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC59A235392CE00CA7F37 /* Preview Assets.xcassets */; };
+		8BFAC59E235392CE00CA7F37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC59C235392CE00CA7F37 /* Main.storyboard */; };
+		8BFAC5A5235392D600CA7F37 /* NoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC58B2353923600CA7F37 /* NoteImage.swift */; };
+		8BFAC5A82353945800CA7F37 /* StaggeredList in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFAC5A72353945800CA7F37 /* StaggeredList */; };
+		8BFAC5AA2353952600CA7F37 /* CrossPlatformImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5A92353952600CA7F37 /* CrossPlatformImage.swift */; };
+		8BFAC5AB2353975F00CA7F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC5792353913400CA7F37 /* Assets.xcassets */; };
+		8BFAC5AD2353987800CA7F37 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5AC2353987800CA7F37 /* NoteView.swift */; };
+		8BFAC5AE2353987800CA7F37 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5AC2353987800CA7F37 /* NoteView.swift */; };
+		8BFAC5B0235398A700CA7F37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5AF235398A700CA7F37 /* ContentView.swift */; };
+		8BFAC5D323539ADE00CA7F37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5D223539ADE00CA7F37 /* AppDelegate.swift */; };
+		8BFAC5D523539ADE00CA7F37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5D423539ADE00CA7F37 /* ContentView.swift */; };
+		8BFAC5DA23539AE000CA7F37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC5D923539AE000CA7F37 /* Preview Assets.xcassets */; };
+		8BFAC5DD23539AE000CA7F37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC5DB23539AE000CA7F37 /* LaunchScreen.storyboard */; };
+		8BFAC5E223539AEA00CA7F37 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5AC2353987800CA7F37 /* NoteView.swift */; };
+		8BFAC5E323539AEC00CA7F37 /* NoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC58B2353923600CA7F37 /* NoteImage.swift */; };
+		8BFAC5E423539AEF00CA7F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC5792353913400CA7F37 /* Assets.xcassets */; };
+		8BFAC5E623539B0400CA7F37 /* StaggeredList in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFAC5E523539B0400CA7F37 /* StaggeredList */; };
+		8BFAC60323539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8BFAC60223539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8BFAC60923539C3000CA7F37 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC60723539C2F00CA7F37 /* Interface.storyboard */; };
+		8BFAC61223539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8BFAC61123539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8BFAC61723539C3000CA7F37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC61623539C3000CA7F37 /* ContentView.swift */; };
+		8BFAC61923539C3000CA7F37 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC61823539C3000CA7F37 /* HostingController.swift */; };
+		8BFAC61B23539C3000CA7F37 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC61A23539C3000CA7F37 /* ExtensionDelegate.swift */; };
+		8BFAC62023539C3100CA7F37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC61F23539C3100CA7F37 /* Preview Assets.xcassets */; };
+		8BFAC62F23539C5100CA7F37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BFAC5792353913400CA7F37 /* Assets.xcassets */; };
+		8BFAC63223539C9200CA7F37 /* StaggeredList in Frameworks */ = {isa = PBXBuildFile; productRef = 8BFAC63123539C9200CA7F37 /* StaggeredList */; };
+		8BFAC63323539CB200CA7F37 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC5AC2353987800CA7F37 /* NoteView.swift */; };
+		8BFAC63423539CB500CA7F37 /* NoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFAC58B2353923600CA7F37 /* NoteImage.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8BFAC60423539C2F00CA7F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFAC54E2353906F00CA7F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFAC60123539C2F00CA7F37;
+			remoteInfo = "watchOSStaggeredNote WatchKit App";
+		};
+		8BFAC61323539C3000CA7F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BFAC54E2353906F00CA7F37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFAC61023539C3000CA7F37;
+			remoteInfo = "watchOSStaggeredNote WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8BFAC62523539C3100CA7F37 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8BFAC61223539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC62923539C3100CA7F37 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8BFAC60323539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		8BFAC5562353906F00CA7F37 /* StaggeredNoteCrossPlatformApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaggeredNoteCrossPlatformApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BFAC5592353907000CA7F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BFAC55B2353907000CA7F37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8BFAC55D2353907000CA7F37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8BFAC55F2353907100CA7F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8BFAC5622353907100CA7F37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8BFAC5652353907100CA7F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8BFAC5672353907100CA7F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFAC5712353913300CA7F37 /* iOSStaggeredNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSStaggeredNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFAC5732353913300CA7F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BFAC5752353913300CA7F37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BFAC5792353913400CA7F37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BFAC57C2353913400CA7F37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BFAC57F2353913400CA7F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BFAC5812353913400CA7F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFAC586235391CE00CA7F37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BFAC58B2353923600CA7F37 /* NoteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteImage.swift; sourceTree = "<group>"; };
+		8BFAC591235392CD00CA7F37 /* Staggered List Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Staggered List Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFAC593235392CD00CA7F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BFAC59A235392CE00CA7F37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BFAC59D235392CE00CA7F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BFAC59F235392CE00CA7F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFAC5A0235392CE00CA7F37 /* macStaggeredNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macStaggeredNote.entitlements; sourceTree = "<group>"; };
+		8BFAC5A92353952600CA7F37 /* CrossPlatformImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossPlatformImage.swift; sourceTree = "<group>"; };
+		8BFAC5AC2353987800CA7F37 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		8BFAC5AF235398A700CA7F37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BFAC5D023539ADE00CA7F37 /* tvOSStaggeredNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOSStaggeredNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFAC5D223539ADE00CA7F37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BFAC5D423539ADE00CA7F37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BFAC5D923539AE000CA7F37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BFAC5DC23539AE000CA7F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BFAC5DE23539AE000CA7F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFAC5FF23539C2F00CA7F37 /* watchOSStaggeredNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchOSStaggeredNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFAC60223539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchOSStaggeredNote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFAC60823539C3000CA7F37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8BFAC60C23539C3000CA7F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BFAC61123539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchOSStaggeredNote WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFAC61623539C3000CA7F37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8BFAC61823539C3000CA7F37 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		8BFAC61A23539C3000CA7F37 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8BFAC61F23539C3100CA7F37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8BFAC62123539C3100CA7F37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8BFAC5532353906F00CA7F37 /* Frameworks */ = {
+		8BFAC56E2353913300CA7F37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BFAC58A2353921800CA7F37 /* StaggeredList in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC58E235392CD00CA7F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC5A82353945800CA7F37 /* StaggeredList in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC5CD23539ADE00CA7F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC5E623539B0400CA7F37 /* StaggeredList in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC60E23539C3000CA7F37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC63223539C9200CA7F37 /* StaggeredList in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,37 +164,135 @@
 		8BFAC54D2353906F00CA7F37 = {
 			isa = PBXGroup;
 			children = (
-				8BFAC5582353906F00CA7F37 /* StaggeredNoteCrossPlatformApp */,
+				8BFAC5852353917300CA7F37 /* Shared */,
+				8BFAC5722353913300CA7F37 /* iOSStaggeredNote */,
+				8BFAC592235392CD00CA7F37 /* macStaggeredNote */,
+				8BFAC5D123539ADE00CA7F37 /* tvOSStaggeredNote */,
+				8BFAC60623539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App */,
+				8BFAC61523539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension */,
 				8BFAC5572353906F00CA7F37 /* Products */,
+				8BFAC5A62353945800CA7F37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		8BFAC5572353906F00CA7F37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BFAC5562353906F00CA7F37 /* StaggeredNoteCrossPlatformApp.app */,
+				8BFAC5712353913300CA7F37 /* iOSStaggeredNote.app */,
+				8BFAC591235392CD00CA7F37 /* Staggered List Notes.app */,
+				8BFAC5D023539ADE00CA7F37 /* tvOSStaggeredNote.app */,
+				8BFAC5FF23539C2F00CA7F37 /* watchOSStaggeredNote.app */,
+				8BFAC60223539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App.app */,
+				8BFAC61123539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BFAC5582353906F00CA7F37 /* StaggeredNoteCrossPlatformApp */ = {
+		8BFAC5722353913300CA7F37 /* iOSStaggeredNote */ = {
 			isa = PBXGroup;
 			children = (
-				8BFAC5592353907000CA7F37 /* AppDelegate.swift */,
-				8BFAC55B2353907000CA7F37 /* SceneDelegate.swift */,
-				8BFAC55D2353907000CA7F37 /* ContentView.swift */,
-				8BFAC55F2353907100CA7F37 /* Assets.xcassets */,
-				8BFAC5642353907100CA7F37 /* LaunchScreen.storyboard */,
-				8BFAC5672353907100CA7F37 /* Info.plist */,
-				8BFAC5612353907100CA7F37 /* Preview Content */,
+				8BFAC586235391CE00CA7F37 /* ContentView.swift */,
+				8BFAC5732353913300CA7F37 /* AppDelegate.swift */,
+				8BFAC5752353913300CA7F37 /* SceneDelegate.swift */,
+				8BFAC57E2353913400CA7F37 /* LaunchScreen.storyboard */,
+				8BFAC5812353913400CA7F37 /* Info.plist */,
+				8BFAC57B2353913400CA7F37 /* Preview Content */,
 			);
-			path = StaggeredNoteCrossPlatformApp;
+			path = iOSStaggeredNote;
 			sourceTree = "<group>";
 		};
-		8BFAC5612353907100CA7F37 /* Preview Content */ = {
+		8BFAC57B2353913400CA7F37 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8BFAC5622353907100CA7F37 /* Preview Assets.xcassets */,
+				8BFAC57C2353913400CA7F37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BFAC5852353917300CA7F37 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8BFAC5AC2353987800CA7F37 /* NoteView.swift */,
+				8BFAC58B2353923600CA7F37 /* NoteImage.swift */,
+				8BFAC5792353913400CA7F37 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8BFAC592235392CD00CA7F37 /* macStaggeredNote */ = {
+			isa = PBXGroup;
+			children = (
+				8BFAC593235392CD00CA7F37 /* AppDelegate.swift */,
+				8BFAC59C235392CE00CA7F37 /* Main.storyboard */,
+				8BFAC59F235392CE00CA7F37 /* Info.plist */,
+				8BFAC5A0235392CE00CA7F37 /* macStaggeredNote.entitlements */,
+				8BFAC599235392CE00CA7F37 /* Preview Content */,
+				8BFAC5A92353952600CA7F37 /* CrossPlatformImage.swift */,
+				8BFAC5AF235398A700CA7F37 /* ContentView.swift */,
+			);
+			path = macStaggeredNote;
+			sourceTree = "<group>";
+		};
+		8BFAC599235392CE00CA7F37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BFAC59A235392CE00CA7F37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BFAC5A62353945800CA7F37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BFAC5D123539ADE00CA7F37 /* tvOSStaggeredNote */ = {
+			isa = PBXGroup;
+			children = (
+				8BFAC5D223539ADE00CA7F37 /* AppDelegate.swift */,
+				8BFAC5D423539ADE00CA7F37 /* ContentView.swift */,
+				8BFAC5DB23539AE000CA7F37 /* LaunchScreen.storyboard */,
+				8BFAC5DE23539AE000CA7F37 /* Info.plist */,
+				8BFAC5D823539AE000CA7F37 /* Preview Content */,
+			);
+			path = tvOSStaggeredNote;
+			sourceTree = "<group>";
+		};
+		8BFAC5D823539AE000CA7F37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BFAC5D923539AE000CA7F37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8BFAC60623539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8BFAC60723539C2F00CA7F37 /* Interface.storyboard */,
+				8BFAC60C23539C3000CA7F37 /* Info.plist */,
+			);
+			path = "watchOSStaggeredNote WatchKit App";
+			sourceTree = "<group>";
+		};
+		8BFAC61523539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8BFAC61623539C3000CA7F37 /* ContentView.swift */,
+				8BFAC61823539C3000CA7F37 /* HostingController.swift */,
+				8BFAC61A23539C3000CA7F37 /* ExtensionDelegate.swift */,
+				8BFAC62123539C3100CA7F37 /* Info.plist */,
+				8BFAC61E23539C3100CA7F37 /* Preview Content */,
+			);
+			path = "watchOSStaggeredNote WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8BFAC61E23539C3100CA7F37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8BFAC61F23539C3100CA7F37 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,22 +300,119 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BFAC5552353906F00CA7F37 /* StaggeredNoteCrossPlatformApp */ = {
+		8BFAC5702353913300CA7F37 /* iOSStaggeredNote */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BFAC56A2353907100CA7F37 /* Build configuration list for PBXNativeTarget "StaggeredNoteCrossPlatformApp" */;
+			buildConfigurationList = 8BFAC5822353913400CA7F37 /* Build configuration list for PBXNativeTarget "iOSStaggeredNote" */;
 			buildPhases = (
-				8BFAC5522353906F00CA7F37 /* Sources */,
-				8BFAC5532353906F00CA7F37 /* Frameworks */,
-				8BFAC5542353906F00CA7F37 /* Resources */,
+				8BFAC56D2353913300CA7F37 /* Sources */,
+				8BFAC56E2353913300CA7F37 /* Frameworks */,
+				8BFAC56F2353913300CA7F37 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StaggeredNoteCrossPlatformApp;
-			productName = StaggeredNoteCrossPlatformApp;
-			productReference = 8BFAC5562353906F00CA7F37 /* StaggeredNoteCrossPlatformApp.app */;
+			name = iOSStaggeredNote;
+			packageProductDependencies = (
+				8BFAC5892353921800CA7F37 /* StaggeredList */,
+			);
+			productName = iOSStaggeredNote;
+			productReference = 8BFAC5712353913300CA7F37 /* iOSStaggeredNote.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8BFAC590235392CD00CA7F37 /* macStaggeredNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFAC5A1235392CE00CA7F37 /* Build configuration list for PBXNativeTarget "macStaggeredNote" */;
+			buildPhases = (
+				8BFAC58D235392CD00CA7F37 /* Sources */,
+				8BFAC58E235392CD00CA7F37 /* Frameworks */,
+				8BFAC58F235392CD00CA7F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macStaggeredNote;
+			packageProductDependencies = (
+				8BFAC5A72353945800CA7F37 /* StaggeredList */,
+			);
+			productName = macStaggeredNote;
+			productReference = 8BFAC591235392CD00CA7F37 /* Staggered List Notes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BFAC5CF23539ADE00CA7F37 /* tvOSStaggeredNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFAC5DF23539AE000CA7F37 /* Build configuration list for PBXNativeTarget "tvOSStaggeredNote" */;
+			buildPhases = (
+				8BFAC5CC23539ADE00CA7F37 /* Sources */,
+				8BFAC5CD23539ADE00CA7F37 /* Frameworks */,
+				8BFAC5CE23539ADE00CA7F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvOSStaggeredNote;
+			packageProductDependencies = (
+				8BFAC5E523539B0400CA7F37 /* StaggeredList */,
+			);
+			productName = tvOSStaggeredNote;
+			productReference = 8BFAC5D023539ADE00CA7F37 /* tvOSStaggeredNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BFAC5FE23539C2F00CA7F37 /* watchOSStaggeredNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFAC62A23539C3100CA7F37 /* Build configuration list for PBXNativeTarget "watchOSStaggeredNote" */;
+			buildPhases = (
+				8BFAC5FD23539C2F00CA7F37 /* Resources */,
+				8BFAC62923539C3100CA7F37 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFAC60523539C2F00CA7F37 /* PBXTargetDependency */,
+			);
+			name = watchOSStaggeredNote;
+			productName = watchOSStaggeredNote;
+			productReference = 8BFAC5FF23539C2F00CA7F37 /* watchOSStaggeredNote.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		8BFAC60123539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFAC62623539C3100CA7F37 /* Build configuration list for PBXNativeTarget "watchOSStaggeredNote WatchKit App" */;
+			buildPhases = (
+				8BFAC60023539C2F00CA7F37 /* Resources */,
+				8BFAC62523539C3100CA7F37 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BFAC61423539C3000CA7F37 /* PBXTargetDependency */,
+			);
+			name = "watchOSStaggeredNote WatchKit App";
+			productName = "watchOSStaggeredNote WatchKit App";
+			productReference = 8BFAC60223539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8BFAC61023539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BFAC62223539C3100CA7F37 /* Build configuration list for PBXNativeTarget "watchOSStaggeredNote WatchKit Extension" */;
+			buildPhases = (
+				8BFAC60D23539C3000CA7F37 /* Sources */,
+				8BFAC60E23539C3000CA7F37 /* Frameworks */,
+				8BFAC60F23539C3000CA7F37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOSStaggeredNote WatchKit Extension";
+			packageProductDependencies = (
+				8BFAC63123539C9200CA7F37 /* StaggeredList */,
+			);
+			productName = "watchOSStaggeredNote WatchKit Extension";
+			productReference = 8BFAC61123539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -105,7 +424,22 @@
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Alfian Losari";
 				TargetAttributes = {
-					8BFAC5552353906F00CA7F37 = {
+					8BFAC5702353913300CA7F37 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8BFAC590235392CD00CA7F37 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8BFAC5CF23539ADE00CA7F37 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8BFAC5FE23539C2F00CA7F37 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8BFAC60123539C2F00CA7F37 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					8BFAC61023539C3000CA7F37 = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -119,48 +453,174 @@
 				Base,
 			);
 			mainGroup = 8BFAC54D2353906F00CA7F37;
+			packageReferences = (
+				8BFAC5882353921800CA7F37 /* XCRemoteSwiftPackageReference "SwiftUIStaggeredList" */,
+			);
 			productRefGroup = 8BFAC5572353906F00CA7F37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BFAC5552353906F00CA7F37 /* StaggeredNoteCrossPlatformApp */,
+				8BFAC5702353913300CA7F37 /* iOSStaggeredNote */,
+				8BFAC590235392CD00CA7F37 /* macStaggeredNote */,
+				8BFAC5CF23539ADE00CA7F37 /* tvOSStaggeredNote */,
+				8BFAC5FE23539C2F00CA7F37 /* watchOSStaggeredNote */,
+				8BFAC60123539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App */,
+				8BFAC61023539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8BFAC5542353906F00CA7F37 /* Resources */ = {
+		8BFAC56F2353913300CA7F37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFAC5662353907100CA7F37 /* LaunchScreen.storyboard in Resources */,
-				8BFAC5632353907100CA7F37 /* Preview Assets.xcassets in Resources */,
-				8BFAC5602353907100CA7F37 /* Assets.xcassets in Resources */,
+				8BFAC5802353913400CA7F37 /* LaunchScreen.storyboard in Resources */,
+				8BFAC57D2353913400CA7F37 /* Preview Assets.xcassets in Resources */,
+				8BFAC57A2353913400CA7F37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC58F235392CD00CA7F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC59E235392CE00CA7F37 /* Main.storyboard in Resources */,
+				8BFAC59B235392CE00CA7F37 /* Preview Assets.xcassets in Resources */,
+				8BFAC5AB2353975F00CA7F37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC5CE23539ADE00CA7F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC5DD23539AE000CA7F37 /* LaunchScreen.storyboard in Resources */,
+				8BFAC5DA23539AE000CA7F37 /* Preview Assets.xcassets in Resources */,
+				8BFAC5E423539AEF00CA7F37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC5FD23539C2F00CA7F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC60023539C2F00CA7F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC60923539C3000CA7F37 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC60F23539C3000CA7F37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC62023539C3100CA7F37 /* Preview Assets.xcassets in Resources */,
+				8BFAC62F23539C5100CA7F37 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8BFAC5522353906F00CA7F37 /* Sources */ = {
+		8BFAC56D2353913300CA7F37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BFAC55A2353907000CA7F37 /* AppDelegate.swift in Sources */,
-				8BFAC55C2353907000CA7F37 /* SceneDelegate.swift in Sources */,
-				8BFAC55E2353907000CA7F37 /* ContentView.swift in Sources */,
+				8BFAC5742353913300CA7F37 /* AppDelegate.swift in Sources */,
+				8BFAC5AD2353987800CA7F37 /* NoteView.swift in Sources */,
+				8BFAC5762353913300CA7F37 /* SceneDelegate.swift in Sources */,
+				8BFAC587235391CE00CA7F37 /* ContentView.swift in Sources */,
+				8BFAC58C2353923600CA7F37 /* NoteImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC58D235392CD00CA7F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC594235392CD00CA7F37 /* AppDelegate.swift in Sources */,
+				8BFAC5B0235398A700CA7F37 /* ContentView.swift in Sources */,
+				8BFAC5AE2353987800CA7F37 /* NoteView.swift in Sources */,
+				8BFAC5AA2353952600CA7F37 /* CrossPlatformImage.swift in Sources */,
+				8BFAC5A5235392D600CA7F37 /* NoteImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC5CC23539ADE00CA7F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC5D523539ADE00CA7F37 /* ContentView.swift in Sources */,
+				8BFAC5D323539ADE00CA7F37 /* AppDelegate.swift in Sources */,
+				8BFAC5E223539AEA00CA7F37 /* NoteView.swift in Sources */,
+				8BFAC5E323539AEC00CA7F37 /* NoteImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFAC60D23539C3000CA7F37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BFAC61923539C3000CA7F37 /* HostingController.swift in Sources */,
+				8BFAC61723539C3000CA7F37 /* ContentView.swift in Sources */,
+				8BFAC63423539CB500CA7F37 /* NoteImage.swift in Sources */,
+				8BFAC63323539CB200CA7F37 /* NoteView.swift in Sources */,
+				8BFAC61B23539C3000CA7F37 /* ExtensionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8BFAC60523539C2F00CA7F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BFAC60123539C2F00CA7F37 /* watchOSStaggeredNote WatchKit App */;
+			targetProxy = 8BFAC60423539C2F00CA7F37 /* PBXContainerItemProxy */;
+		};
+		8BFAC61423539C3000CA7F37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BFAC61023539C3000CA7F37 /* watchOSStaggeredNote WatchKit Extension */;
+			targetProxy = 8BFAC61323539C3000CA7F37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		8BFAC5642353907100CA7F37 /* LaunchScreen.storyboard */ = {
+		8BFAC57E2353913400CA7F37 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8BFAC5652353907100CA7F37 /* Base */,
+				8BFAC57F2353913400CA7F37 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8BFAC59C235392CE00CA7F37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFAC59D235392CE00CA7F37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BFAC5DB23539AE000CA7F37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFAC5DC23539AE000CA7F37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8BFAC60723539C2F00CA7F37 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BFAC60823539C3000CA7F37 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,43 +740,247 @@
 			};
 			name = Release;
 		};
-		8BFAC56B2353907100CA7F37 /* Debug */ = {
+		8BFAC5832353913400CA7F37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"StaggeredNoteCrossPlatformApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOSStaggeredNote/Preview Content\"";
 				DEVELOPMENT_TEAM = 5C2XD9H2JS;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = StaggeredNoteCrossPlatformApp/Info.plist;
+				INFOPLIST_FILE = iOSStaggeredNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.StaggeredNoteCrossPlatformApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.iOSStaggeredNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		8BFAC56C2353907100CA7F37 /* Release */ = {
+		8BFAC5842353913400CA7F37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"StaggeredNoteCrossPlatformApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iOSStaggeredNote/Preview Content\"";
 				DEVELOPMENT_TEAM = 5C2XD9H2JS;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = StaggeredNoteCrossPlatformApp/Info.plist;
+				INFOPLIST_FILE = iOSStaggeredNote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.StaggeredNoteCrossPlatformApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.iOSStaggeredNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BFAC5A2235392CE00CA7F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macStaggeredNote/macStaggeredNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"macStaggeredNote/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macStaggeredNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.macStaggeredNote;
+				PRODUCT_NAME = "Staggered List Notes";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8BFAC5A3235392CE00CA7F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = macStaggeredNote/macStaggeredNote.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"macStaggeredNote/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macStaggeredNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.macStaggeredNote;
+				PRODUCT_NAME = "Staggered List Notes";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8BFAC5E023539AE000CA7F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tvOSStaggeredNote/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tvOSStaggeredNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.tvOSStaggeredNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		8BFAC5E123539AE000CA7F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tvOSStaggeredNote/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = tvOSStaggeredNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.tvOSStaggeredNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Release;
+		};
+		8BFAC62323539C3100CA7F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOSStaggeredNote WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watchOSStaggeredNote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.watchOSStaggeredNote.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		8BFAC62423539C3100CA7F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"watchOSStaggeredNote WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "watchOSStaggeredNote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.watchOSStaggeredNote.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		8BFAC62723539C3100CA7F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				IBSC_MODULE = watchOSStaggeredNote_WatchKit_Extension;
+				INFOPLIST_FILE = "watchOSStaggeredNote WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.watchOSStaggeredNote.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		8BFAC62823539C3100CA7F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				IBSC_MODULE = watchOSStaggeredNote_WatchKit_Extension;
+				INFOPLIST_FILE = "watchOSStaggeredNote WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.watchOSStaggeredNote.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		8BFAC62B23539C3100CA7F37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.watchOSStaggeredNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8BFAC62C23539C3100CA7F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5C2XD9H2JS;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alfianlosari.watchOSStaggeredNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -332,16 +996,95 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BFAC56A2353907100CA7F37 /* Build configuration list for PBXNativeTarget "StaggeredNoteCrossPlatformApp" */ = {
+		8BFAC5822353913400CA7F37 /* Build configuration list for PBXNativeTarget "iOSStaggeredNote" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BFAC56B2353907100CA7F37 /* Debug */,
-				8BFAC56C2353907100CA7F37 /* Release */,
+				8BFAC5832353913400CA7F37 /* Debug */,
+				8BFAC5842353913400CA7F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFAC5A1235392CE00CA7F37 /* Build configuration list for PBXNativeTarget "macStaggeredNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFAC5A2235392CE00CA7F37 /* Debug */,
+				8BFAC5A3235392CE00CA7F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFAC5DF23539AE000CA7F37 /* Build configuration list for PBXNativeTarget "tvOSStaggeredNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFAC5E023539AE000CA7F37 /* Debug */,
+				8BFAC5E123539AE000CA7F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFAC62223539C3100CA7F37 /* Build configuration list for PBXNativeTarget "watchOSStaggeredNote WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFAC62323539C3100CA7F37 /* Debug */,
+				8BFAC62423539C3100CA7F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFAC62623539C3100CA7F37 /* Build configuration list for PBXNativeTarget "watchOSStaggeredNote WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFAC62723539C3100CA7F37 /* Debug */,
+				8BFAC62823539C3100CA7F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BFAC62A23539C3100CA7F37 /* Build configuration list for PBXNativeTarget "watchOSStaggeredNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFAC62B23539C3100CA7F37 /* Debug */,
+				8BFAC62C23539C3100CA7F37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BFAC5882353921800CA7F37 /* XCRemoteSwiftPackageReference "SwiftUIStaggeredList" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/SwiftUIStaggeredList";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BFAC5892353921800CA7F37 /* StaggeredList */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BFAC5882353921800CA7F37 /* XCRemoteSwiftPackageReference "SwiftUIStaggeredList" */;
+			productName = StaggeredList;
+		};
+		8BFAC5A72353945800CA7F37 /* StaggeredList */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BFAC5882353921800CA7F37 /* XCRemoteSwiftPackageReference "SwiftUIStaggeredList" */;
+			productName = StaggeredList;
+		};
+		8BFAC5E523539B0400CA7F37 /* StaggeredList */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BFAC5882353921800CA7F37 /* XCRemoteSwiftPackageReference "SwiftUIStaggeredList" */;
+			productName = StaggeredList;
+		};
+		8BFAC63123539C9200CA7F37 /* StaggeredList */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BFAC5882353921800CA7F37 /* XCRemoteSwiftPackageReference "SwiftUIStaggeredList" */;
+			productName = StaggeredList;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8BFAC54E2353906F00CA7F37 /* Project object */;
 }
